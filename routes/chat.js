@@ -8,5 +8,6 @@ router.route("/send-message").post(authenticateToken,handlePostSendMessage);
 router.route("/:id").post(authenticateToken,handlePostChat);
 router.route("/").post(authenticateToken,handlePostChatList);
 
+// module.exports = router;
 module.exports = router;
 
